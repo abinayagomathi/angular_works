@@ -1,0 +1,21 @@
+<h3 mybgcolor>This is a custom directive</h3>
+
+
+Emp Id : <input type="text" id='empid' [(ngModel)]="inputid" value="" numerictest/>
+
+<br>
+<br>
+
+<h3>On blur of first select show the second select</h3>
+
+<select name="hobby" [(ngModel)] ="hobbiesSelected" selectBlur>Select
+    <option value="Arts">Arts</option>
+    <option value="games">Games</option>
+</select>
+<br>
+<br>
+<select name="years" id="years" [(ngModel)]="secondSelect" style="display:none">Select
+    <option value="1">one</option>
+    <option value="2">two</option>
+    <option value="3">three</option>
+</select>

@@ -1,0 +1,14 @@
+Select Hobbies : 
+<select [(ngModel)] ="HobbiesMulti" (change)="showHobbies();" multiple>
+    <option *ngFor="let hobby of xxxx" >{{hobby}}</option>
+</select>
+<br>
+<hr/>
+<!-- Select Hobbies:
+<select [(ngModel)]="inarray" multiple>
+    <option *ngFor="let xx of xxxx">{{xx}}</option>
+</select>
+<textarea name="" id="" cols="30" rows="10" [(ngModel)]="inarray"></textarea>-->
+
+
+<textarea name="" id="" cols="30" rows="10">{{selectedHobbies}}</textarea>

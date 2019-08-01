@@ -13,7 +13,12 @@ import { DetailComponent } from './component/ioexample/detail.component';
 import { MenuPracticeComponent } from './menu-practice/menu-practice.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgstyleComponent } from './ngstyle/ngstyle.component';
-
+import { BgColorComponent } from './custom-directive/bgcolor.component';
+import { MyBgColorDirective } from './custom-directive/bgcolor.directive';
+import { NumericTest } from './custom-directive/numerictest.directive';
+import { PhoneLength } from './custom-directive/phonelength.directive';
+import { SelectBlur } from './custom-directive/selectblur.directive';
+import { MultiSelect } from './multi-select/multi-select.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +32,13 @@ import { NgstyleComponent } from './ngstyle/ngstyle.component';
     DetailComponent,
     MenuPracticeComponent,
     NgClassComponent,
-    NgstyleComponent
+    NgstyleComponent,
+    BgColorComponent,
+    MyBgColorDirective,
+    NumericTest,
+    PhoneLength,
+    SelectBlur,
+    MultiSelect
   ],
   imports: [
     BrowserModule,
