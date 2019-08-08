@@ -19,6 +19,9 @@ import { NumericTest } from './custom-directive/numerictest.directive';
 import { PhoneLength } from './custom-directive/phonelength.directive';
 import { SelectBlur } from './custom-directive/selectblur.directive';
 import { MultiSelect } from './multi-select/multi-select.component';
+import { HobbiesList } from './multi-select/hobbies-list';
+import { ServicesFirstComponent } from './services-first-example/services-first-component';
+import {MyService} from './services-first-example/service-one';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,13 +41,17 @@ import { MultiSelect } from './multi-select/multi-select.component';
     NumericTest,
     PhoneLength,
     SelectBlur,
-    MultiSelect
+    MultiSelect,
+    ServicesFirstComponent
   ],
   imports: [
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [
+    HobbiesList,
+    MyService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

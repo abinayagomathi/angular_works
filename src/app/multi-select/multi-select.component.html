@@ -10,5 +10,11 @@ Select Hobbies :
 </select>
 <textarea name="" id="" cols="30" rows="10" [(ngModel)]="inarray"></textarea>-->
 
+<button (click)="gethobb()">Click me</button>
 
-<textarea name="" id="" cols="30" rows="10">{{selectedHobbies}}</textarea>
+<!--<textarea name="" id="" cols="30" rows="10">{{selectedHobbies}}</textarea>-->
+<br/>
+Select 2:
+<select name="" id="">
+    <option *ngFor="let eachHobby of selectedHobbiesarray">{{eachHobby}}</option>
+</select>
