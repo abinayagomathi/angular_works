@@ -22,6 +22,7 @@ import { MultiSelect } from './multi-select/multi-select.component';
 import { HobbiesList } from './multi-select/hobbies-list';
 import { ServicesFirstComponent } from './services-first-example/services-first-component';
 import {MyService} from './services-first-example/service-one';
+import { SelectLeftRightComponent } from './select-left-right/select-left-right.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,7 +43,8 @@ import {MyService} from './services-first-example/service-one';
     PhoneLength,
     SelectBlur,
     MultiSelect,
-    ServicesFirstComponent
+    ServicesFirstComponent,
+    SelectLeftRightComponent
   ],
   imports: [
     BrowserModule,
